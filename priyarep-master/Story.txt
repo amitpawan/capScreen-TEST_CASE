@@ -1,0 +1,44 @@
+
+Intro:
+This file is for story. A story of development of office 365 connector plugin for Jenkins.
+
+Prologue:
+It all started with development of Jenkins connector for Office365. For this connector to work, we needed a plugin in the Jenkins software which can send data to this connector.
+
+Chapter 1:
+The investigation for writing a plugin starts. We found a plugin "Workload Manager" which suits our requirement. First proposal was to use the same plugin to send the payload and we generate the swiftcard from that payload in our connector as we do for all other connectors. But this proposal was rejected because we wanted Office365 branding in the plugin and didn't want to use/promote/depend on other. So we decided to copy the "Workload Manager" and modify it to send the payload in swift format.
+
+The biggest challenge in development of this plugin was Java.
+
+The testing is going on. Things are not working and I don't know why! I am trying to find out, but am not getting why Jenkins is not calling my event but is calling Slacks! I am trying all different stuffs.
+
+
+As expected nothing worked till I came back from Badminton.
+
+Hurrah!!! Everytings working...............................
+
+New story begins.....
+
+The story of testing the connector...
+
+New story...
+
+testing pipeline
+
+Testing freestyle..
+
+New story
+testing pipeline..
+testing.....
+
+Now time for testers to test!!!!
+
+Testing jenkins,.........pipeline test
+
+
+
+testing..... update
+test
+app test...update...........
+testing......
+test..  
